@@ -1,0 +1,48 @@
+REDIS
+
+
+	key-value pair storing
+	stored in main-meory
+
+STRING COMMANDS
+
+	set key_name value
+	    	- to store a value for a key permanently
+	    	-No expiry
+	
+	get key_name
+	
+		- used to get the value stored for the key
+		
+	flushall
+		
+		- to remove all the value from the db
+		
+	
+	keys *
+	
+		- to show all the values assigned for the key
+		
+	setex key_name time value
+	
+		- to assign a value to a key for a particular period of time that is mentioned
+		
+
+ARRAYS COMMANDS
+	
+	lpush key_name array_value
+	
+		- to push the array_value in to the keyname array
+		- push in the left side of the array
+		
+	LPOP key_name 
+	
+		- remove elements from the left side of the array stored in the key_name
+	
+	rpush key_name array_value
+	
+	RPOP key_name
+	
+	lrange key_name starting_index ending_index
+		
+		- to print all the elements from the array ending_index will be -1 to print all the values

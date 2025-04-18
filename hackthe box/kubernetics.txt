@@ -1,0 +1,8 @@
+
+forward_traffic from localhost:3000 to kubernetics port 80:
+
+            kubectl port-forward svc/my-app-service 3000:80
+
+To START KUBERTICS SERVER
+
+	minikube service my-app-service

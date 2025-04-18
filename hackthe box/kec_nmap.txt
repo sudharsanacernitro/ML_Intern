@@ -1,0 +1,446 @@
+ nmap 10.1.99.0/24
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-07-01 10:46 UTC
+Nmap scan report for 10.1.99.3
+Host is up (0.00030s latency).
+Not shown: 992 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+3261/tcp open  winshadow
+5000/tcp open  upnp
+5001/tcp open  commplex-link
+5357/tcp open  wsdapi
+
+Nmap scan report for _gateway (10.1.99.10)
+Host is up (0.0033s latency).
+Not shown: 997 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+23/tcp open  telnet
+80/tcp open  http
+
+Nmap scan report for 10.1.99.11
+Host is up (0.00035s latency).
+Not shown: 989 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+1521/tcp  open  oracle
+3389/tcp  open  ms-wbt-server
+5560/tcp  open  isqlplus
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+
+Nmap scan report for 10.1.99.13
+Host is up (0.00035s latency).
+Not shown: 986 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+8443/tcp  open  https-alt
+9090/tcp  open  zeus-admin
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49158/tcp open  unknown
+49159/tcp open  unknown
+
+Nmap scan report for 10.1.99.14
+Host is up (0.00021s latency).
+Not shown: 989 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1433/tcp open  ms-sql-s
+1801/tcp open  msmq
+2103/tcp open  zephyr-clt
+2105/tcp open  eklogin
+2107/tcp open  msmq-mgmt
+2383/tcp open  ms-olap4
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 10.1.99.15
+Host is up (0.00051s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+1801/tcp open  msmq
+2103/tcp open  zephyr-clt
+2105/tcp open  eklogin
+2107/tcp open  msmq-mgmt
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 10.1.99.20
+Host is up (0.00090s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+80/tcp   open  http
+3389/tcp open  ms-wbt-server
+5357/tcp open  wsdapi
+
+Nmap scan report for fortinet (10.1.99.21)
+Host is up (0.00028s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap scan report for 10.1.99.25
+Host is up (0.00040s latency).
+Not shown: 993 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+8000/tcp open  http-alt
+9000/tcp open  cslistener
+
+Nmap scan report for 10.1.99.27
+Host is up (0.00036s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8000/tcp open  http-alt
+
+Nmap scan report for 10.1.99.28
+Host is up (0.00030s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8000/tcp open  http-alt
+
+Nmap scan report for 10.1.99.29
+Host is up (0.00034s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+111/tcp  open  rpcbind
+2049/tcp open  nfs
+5280/tcp open  xmpp-bosh
+7070/tcp open  realserver
+
+Nmap scan report for 10.1.99.30
+Host is up (0.00030s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 10.1.99.32
+Host is up (0.00050s latency).
+Not shown: 991 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+3260/tcp open  iscsi
+3261/tcp open  winshadow
+5000/tcp open  upnp
+5001/tcp open  commplex-link
+5357/tcp open  wsdapi
+
+Nmap scan report for 10.1.99.33
+Host is up (0.00031s latency).
+Not shown: 987 closed ports
+PORT      STATE SERVICE
+21/tcp    open  ftp
+80/tcp    open  http
+81/tcp    open  hosts2-ns
+82/tcp    open  xfer
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+5357/tcp  open  wsdapi
+8400/tcp  open  cvd
+20000/tcp open  dnp
+57294/tcp open  unknown
+
+Nmap scan report for 10.1.99.36
+Host is up (0.00025s latency).
+Not shown: 994 closed ports
+PORT      STATE SERVICE
+22/tcp    open  ssh
+80/tcp    open  http
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+10000/tcp open  snet-sensor-mgmt
+
+Nmap scan report for 10.1.99.81
+Host is up (0.00040s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+90/tcp   open  dnsix
+554/tcp  open  rtsp
+8443/tcp open  https-alt
+9001/tcp open  tor-orport
+
+Nmap scan report for 10.1.99.82
+Host is up (0.00089s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+90/tcp   open  dnsix
+443/tcp  open  https
+554/tcp  open  rtsp
+8443/tcp open  https-alt
+9002/tcp open  dynamid
+
+Nmap scan report for 10.1.99.83
+Host is up (0.00055s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+90/tcp   open  dnsix
+554/tcp  open  rtsp
+8443/tcp open  https-alt
+9003/tcp open  unknown
+
+Nmap scan report for 10.1.99.84
+Host is up (0.00035s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+90/tcp   open  dnsix
+554/tcp  open  rtsp
+9000/tcp open  cslistener
+
+Nmap scan report for 10.1.99.85
+Host is up (0.00045s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+90/tcp  open  dnsix
+554/tcp open  rtsp
+
+Nmap scan report for 10.1.99.93
+Host is up (0.00059s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+90/tcp   open  dnsix
+554/tcp  open  rtsp
+8000/tcp open  http-alt
+
+Nmap scan report for 10.1.99.94
+Host is up (0.00057s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+90/tcp  open  dnsix
+554/tcp open  rtsp
+
+Nmap scan report for 10.1.99.95
+Host is up (0.00065s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+90/tcp  open  dnsix
+554/tcp open  rtsp
+
+Nmap scan report for 10.1.99.96
+Host is up (0.00048s latency).
+Not shown: 986 closed ports
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+1433/tcp  open  ms-sql-s
+2383/tcp  open  ms-olap4
+3389/tcp  open  ms-wbt-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49163/tcp open  unknown
+
+Nmap scan report for 10.1.99.100
+Host is up (0.00031s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 10.1.99.101
+Host is up (0.00027s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 10.1.99.200
+Host is up (0.00031s latency).
+Not shown: 980 closed ports
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+88/tcp   open  kerberos-sec
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+389/tcp  open  ldap
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+464/tcp  open  kpasswd5
+593/tcp  open  http-rpc-epmap
+636/tcp  open  ldapssl
+1801/tcp open  msmq
+2103/tcp open  zephyr-clt
+2105/tcp open  eklogin
+2107/tcp open  msmq-mgmt
+3268/tcp open  globalcatLDAP
+3269/tcp open  globalcatLDAPssl
+3306/tcp open  mysql
+3389/tcp open  ms-wbt-server
+8009/tcp open  ajp13
+
+Nmap scan report for 10.1.99.201
+Host is up (0.00032s latency).
+Not shown: 988 closed ports
+PORT     STATE SERVICE
+53/tcp   open  domain
+88/tcp   open  kerberos-sec
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+389/tcp  open  ldap
+445/tcp  open  microsoft-ds
+464/tcp  open  kpasswd5
+593/tcp  open  http-rpc-epmap
+636/tcp  open  ldapssl
+3268/tcp open  globalcatLDAP
+3269/tcp open  globalcatLDAPssl
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 10.1.99.202
+Host is up (0.00029s latency).
+Not shown: 983 closed ports
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+88/tcp   open  kerberos-sec
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+389/tcp  open  ldap
+445/tcp  open  microsoft-ds
+464/tcp  open  kpasswd5
+593/tcp  open  http-rpc-epmap
+636/tcp  open  ldapssl
+1801/tcp open  msmq
+2103/tcp open  zephyr-clt
+2105/tcp open  eklogin
+2107/tcp open  msmq-mgmt
+3268/tcp open  globalcatLDAP
+3269/tcp open  globalcatLDAPssl
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 10.1.99.214
+Host is up (0.017s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+2382/tcp open  ms-olap3
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 10.1.99.220
+Host is up (0.00040s latency).
+Not shown: 994 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+7070/tcp  open  realserver
+27000/tcp open  flexlm0
+
+Nmap scan report for 10.1.99.222
+Host is up (0.00032s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+3306/tcp open  mysql
+
+Nmap scan report for 10.1.99.248
+Host is up (0.00034s latency).
+Not shown: 977 closed ports
+PORT      STATE SERVICE
+21/tcp    open  ftp
+22/tcp    open  ssh
+53/tcp    open  domain
+80/tcp    open  http
+110/tcp   open  pop3
+111/tcp   open  rpcbind
+139/tcp   open  netbios-ssn
+143/tcp   open  imap
+445/tcp   open  microsoft-ds
+993/tcp   open  imaps
+995/tcp   open  pop3s
+1935/tcp  open  rtmp
+2049/tcp  open  nfs
+3389/tcp  open  ms-wbt-server
+7070/tcp  open  realserver
+8000/tcp  open  http-alt
+8001/tcp  open  vcom-tunnel
+8008/tcp  open  http
+8080/tcp  open  http-proxy
+8081/tcp  open  blackice-icecap
+8200/tcp  open  trivnet1
+9090/tcp  open  zeus-admin
+10000/tcp open  snet-sensor-mgmt
+
+Nmap scan report for 10.1.99.249
+Host is up (0.00028s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+80/tcp   open  http
+3306/tcp open  mysql
+6001/tcp open  X11:1
+8080/tcp open  http-proxy
+
+Nmap scan report for 10.1.99.250
+Host is up (0.00048s latency).
+Not shown: 986 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+1521/tcp  open  oracle
+3389/tcp  open  ms-wbt-server
+5357/tcp  open  wsdapi
+8009/tcp  open  ajp13
+8082/tcp  open  blackice-alerts
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49157/tcp open  unknown
+49160/tcp open  unknown
+
+Nmap done: 256 IP addresses (36 hosts up) scanned in 17.53 seconds
+

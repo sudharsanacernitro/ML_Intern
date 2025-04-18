@@ -1,0 +1,69 @@
+ TELNET: 
+
+    port-23
+
+FTP:
+
+   log-in without password username : anonymous
+   
+   log-in successfull : 230 login successful
+   
+   list files and folders in ftp server : dir,ls
+   
+   port - 21
+   
+   file trasfer protocol
+   
+   get file_name : to download the file in localmachine
+   
+   secure ftp : sftp
+   
+   ftp server: vsftp
+   
+   
+MYSQL SERVER:
+   
+   To connect mysql server: mysql -h #target_ip -u #username
+   
+   To list the dbs in the server: SHOW databases;
+   
+   To use one of the db : USE db_name;
+   
+   To list tables in a db: SHOW tables;
+   
+   
+SMB:
+
+   Server Message Block :  This is used to share files on a network and allow multiple users to access a file in a network
+                          such as printers and give remote access to a file over a network.
+   
+   sudo apt-get install smbclient
+   
+   smbclient -L {targetIP} : To check the available folders in the smb server
+   
+   smbclient////{targetIP}//dir_name : to access the directories....some directories have password and some have not
+   
+   port : 445
+   
+   command_in_smb: [ls - To list the files ,cd - to change dir ,get - to download file,exit - to exit a dir]
+   
+   
+REDIS-db:
+    
+    It is database where key value pair is used like json in mongodb,Server based
+    
+    sudo apt-get install redis-tools
+    
+    port:6379
+
+    "redis-cli" : used to commmunicate with redis server
+    
+    redis-cli -h {ip} : to connect the server
+    
+    "select {index}" : to select the value in redis db
+    
+    keys * : used to print the value stored
+    
+    info : is used to print the info of the db
+    
+    get {key} : to get the info of the key

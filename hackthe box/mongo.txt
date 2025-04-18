@@ -1,0 +1,57 @@
+
+
+bjson -> key-value pair used in mongodb
+
+_id: objectId("**************") -> to update based on object id
+
+TERMINAL:
+	cls -> to clear the screen
+	
+	show dbs -> to display the data-bases
+	
+	db.{db_name}.createCollection("collection_name") -> To create a collection
+	
+	
+       db.dropDatabase() -> to drop a database
+
+	db.collection.insertOne({}) -> to insert one bson
+
+	db.collection.insertMany([{},{},{}]) -> to insert many bson at a time
+
+SORTING:
+========
+
+	db.collection.find({}).sort({name_to_order:order})
+         
+         name_to _order -> order based on which field
+         
+         order -> 1 for ascending order, -1 for descending order
+         
+ LIMITING
+ ========
+ 
+ 	db.collection.find().limit(limit_num)
+ 	
+ 	limit_num -> number of bson that we want as output
+
+UPDATE
+=======	
+
+	db.collection.updateOne(filter,update)
+	
+	filter : {} -> a value to filter bson
+	
+	update 
+	
+		to insert or update: {$set:{update:true}} -> to update that filtered bson with update value as true, $set command is default
+
+		to delete : {$unset{update:""}} -> to remove that key from the bson
+		
+		db.collection.updateMany(filter,update) -> to update all the bson which satisfies the filter condition
+		
+DROP
+====
+
+	db.collection_name.drop()
+        
+	

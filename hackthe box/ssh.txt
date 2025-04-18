@@ -1,0 +1,31 @@
+
+socks5 proxy
+============
+
+	ssh -D localport_number user@domain_name
+
+local_port forwarding
+====================
+
+	ssh -L localhost:localport:remote_ip:remote_port user@domain_name
+
+Remote_port forwarding
+=====================
+
+	Remote Port Forwarding (-R)
+
+Remote port forwarding allows you to forward a port on a remote server to a port on your local machine. This means that a service running on your local machine can be accessed from the remote server (or potentially other machines that can reach the remote server).
+Syntax
+
+	ssh -R [remote_port]:[local_host]:[local_port] [user]@[remote_server]
+
+
+local_port forwarding 
+======================
+
+	opposite to remote port forwarding ,just forwarding port from remote to local machine
+	
+	syntax:
+	 ssh -L [local_port]:[remote_host]:[remote_port] [user]@[ssh_server]
+
+	 

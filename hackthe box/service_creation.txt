@@ -1,0 +1,22 @@
+[Unit]
+Description=Ngrok Tunneling Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/var/opt/myenv/bin/python3 /path/to/your/script.py
+WorkingDirectory=/path/to/your/script/directory
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
+
+
+sudo systemctl daemon-reload
+
+
+sudo systemctl start ngrok
+
+
+sudo systemctl enable ngrok

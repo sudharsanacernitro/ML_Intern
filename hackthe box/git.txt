@@ -1,0 +1,21 @@
+ 2594  git remote -v\n
+ 2595  cd projects/c_files/
+ 2596  git init
+ 2597  git remote add origin git@github.com:sudharsanacernitro /c_files.git\n
+ 2598  git config --global user.name "sudharsanacernitro"\n
+ 2599  git config --global user.email "sudharsanr.22cse@kongu.edu"\n
+ 2600  git add .\n
+ 2601  git commit -m "Commit 1"\n
+ 2602  git push origin main\n
+ 2603  git branch\n
+ 2604  git push origin master\n
+ 2605  git push master\n
+ 2606  git branch -m master main\n
+ 2607  git push -u origin main\n
+ 2608  git init\n
+ 2609  git remote add origin https://github.com/sudharsanacernitro/c_files.git\n
+ 2610  git remote -v\n
+ 2611  git add .\ngit commit -m "Initial commit"\n
+ 2612  git push -u origin main\n
+ 2613  sudo apt-get install git-credential-manager\n
+ 2614  git push -u origin main\n

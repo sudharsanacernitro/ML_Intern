@@ -1,0 +1,15 @@
+ 3397  cd 20240607T191634\n
+ 3398  cat log.log\n
+ 3400  cd
+ 3402  code --verbose $(pwd)
+ 3403  pkill code  # Close all instances of VSCode\ncode &     # Restart VSCode\n
+ 3404  ps aux | grep code  # Check for VSCode processes\n
+ 3405  rm -rf /path/to/your/project/.vscode/workspaceStorage\n
+ 3406  rm ~/.config/Code/User/settings.json  # Delete VSCode settings file\n
+ 3407  sudo dpkg -r code     # Remove VSCode\nsudo apt-get install -f  # Fix any broken dependencies\nsudo dpkg -i /home/sudharsan/Downloads/code_1.90.0-1717531825_amd64.deb  # Reinstall VSCode from .deb package\n
+ 3409  ls -ld
+ 3410  mv ~/.config/Code ~/.config/Code_backup\ncode /home/sudharsan/projects/my-app &\n
+ 3411  cd projects/my-app
+ 3412  ls
+ 3413  code $(pwd)
+ 3414  hist
